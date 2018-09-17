@@ -15,5 +15,5 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'VaadinStarterProjectBase'
+rootProject.name = 'Vaadin10SampleApp'
 enableFeaturePreview('IMPROVED_POM_SUPPORT')
