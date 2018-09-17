@@ -1,0 +1,27 @@
+plugins {
+  id "org.akhikhl.gretty" version "2.0.0"
+  id 'com.devsoap.vaadin-flow' version '1.0.0.M5'
+  id "groovy"
+  id "eclipse" 
+  id "war"
+}
+
+vaadin.version="10.0.4"
+
+
+repositories { 
+  jcenter()
+  vaadin.repositories()
+}
+
+dependencies {
+//  compile 'org.codehaus.groovy:groovy-all:2.4.13'
+  compile vaadin.groovy()
+  compile vaadin.bom()
+  compile vaadin.core()
+
+  compile vaadin.slf4j()
+}
+
+
+
