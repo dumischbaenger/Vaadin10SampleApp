@@ -50,10 +50,6 @@ public class MainView extends VerticalLayout {
 
         grid.setSizeFull();
 
-//        grid.addColumn(Customer::getFirstName).setHeader("First name");
-//        grid.addColumn(Customer::getLastName).setHeader("Last name");
-//        grid.addColumn(Customer::getStatus).setHeader("Status");
-
         grid.addColumn({it.getFirstName()}).setHeader("First name");
         grid.addColumn({it.getLastName()}).setHeader("Last name");
         grid.addColumn({it.getStatus()}).setHeader("Status");
