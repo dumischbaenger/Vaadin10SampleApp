@@ -10,7 +10,7 @@ public class Customer implements Serializable, Cloneable {
 
   private Long id;
 
-  private String firstName = "";
+  private String firstName = "f";
 
   private String lastName = "";
 
